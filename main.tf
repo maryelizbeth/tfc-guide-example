@@ -22,7 +22,7 @@ resource "aws_dynamodb_table" "tfc_example_table" {
 resource "aws_vpc" "testingtesting" {
   cidr_block = "172.31.0.0/16"
   tags = {
-    Name = "mary-tester-12"
+    name = "juice"
   }  
 }
 
