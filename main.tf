@@ -21,7 +21,6 @@ resource "aws_dynamodb_table" "tfc_example_table" {
 
 resource "aws_vpc" "testingtesting" {
   cidr_block = "172.31.0.0/16"
-  name = "mary-test"
   tags = {
     Name = "mary-tester"
   }  
